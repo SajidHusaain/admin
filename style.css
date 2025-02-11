@@ -1,0 +1,126 @@
+
+body{
+    background: Azure ;
+}
+.container{
+	width: 600px;
+	height:500px;
+	background: black;
+	color: white;
+	border-radius: 15px; 
+	margin-left: 350px;
+	/*margin-top: 100px;*/
+	padding-right: 40px;
+
+}
+.maincontainer{
+width: 100%;
+height: 1000px;
+background-color:black;
+}
+.container h1{
+    text-align: center;
+    padding-top:30px; 
+    margin-left: 25px;
+    color: white;
+}
+
+
+
+.table{
+	margin-left: 140px;
+	margin-top: 100px;
+}
+
+input[type=text] {
+    width: 100%;
+     height: 40px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+   
+    color: black;
+    font-weight: bold;
+    border-radius: 5px; 
+}
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px; 
+}
+
+
+
+/*::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  /*color: black;
+}*/
+/*::-moz-placeholder { /* Firefox 19+ */
+ /* color: black;
+}*/
+/*:-ms-input-placeholder { /* IE 10+ */
+  /*color: black;
+}*/
+/*:-moz-placeholder { /* Firefox 18- */
+  /*color: black;
+}*/
+
+input[type=submit] {
+	width: 100%;
+    background-color:white;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; 
+
+}
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    width: 100%;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 214px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: -45%;
+    left: 29%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
